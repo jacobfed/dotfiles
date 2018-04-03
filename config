@@ -1,0 +1,10 @@
+### CAEN
+Host caen login.engin.umich.edu
+  HostName login.engin.umich.edu
+  User jacobfed
+  ControlMaster auto
+  ControlPath ~/.ssh/_%r@%h:%p
+  ControlPersist 43200
+Host on  # Use your own initials or fave shortcut
+  HostName oncampus-course.engin.umich.edu
+  User jacobfed
